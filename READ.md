@@ -1,7 +1,10 @@
 #DotNetTrainingBatch3
+
+https://www.javatpoint.com/ado-net-tutotial
+
 ado.net
 dapper
-ef core
+ef core (code first, database first)
 C#
 
 .net framework (windows)
