@@ -3,6 +3,7 @@ using System.Data.SqlClient;
 using System.Data;
 using DotNetTrainingBatch3.ConsoleApp.AdoDotNetExamples;
 using DotNetTrainingBatch3.ConsoleApp.DapperExamples;
+using DotNetTrainingBatch3.ConsoleApp.EFCoreExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -68,29 +69,39 @@ Console.WriteLine("Hello, World!");
 
 //foreach (DataRow dr in dt.Rows)
 //{
-   
+
 //    Console.WriteLine("Title..." + dr["BlogTitle"]);
 //    Console.WriteLine("Author..." + dr["BlogAuthor"]);
 //    Console.WriteLine("Content..." + dr["BlogContent"]);
 //}
 
-//AdoDotNetExample adoDotNetExample= new AdoDotNetExample();
+AdoDotNetExample adoDotNetExample= new AdoDotNetExample();
 ////adoDotNetExample.Read();
 ////adoDotNetExample.Edit(1);
 ////adoDotNetExample.Edit(11);
-////adoDotNetExample.Create("test title", "test author", "test content" );
+//adoDotNetExample.("test title", "test author", "test content" );
 //adoDotNetExample.Update(1002, "test title 2", "test author 2", "test content 2" );
 //adoDotNetExample.Delete(1002);
 
-DapperExample dapperExample = new DapperExample();
+//DapperExample dapperExample = new DapperExample();
 //dapperExample.Read();
 
 //dapperExample.Edit(1);
 //dapperExample.Edit(11);
 
-dapperExample.Create("test title", "test author", "test content" );
-dapperExample.Update(2002, "test title 2", "test author 2", "test content 2" );
-dapperExample.Delete(2002);
+//dapperExample.Create("test title", "test author", "test content" );
+//dapperExample.Update(2002, "test title 2", "test author 2", "test content 2" );
+//dapperExample.Delete(2002);
+
+EFCoreExample eFCoreExample = new EFCoreExample();
+//eFCoreExample.Read();
+//eFCoreExample.Edit(1);
+//eFCoreExample.Edit(11);
+
+//eFCoreExample.Create("test title", "test author", "test content" );
+//eFCoreExample.Update(3002, "test title 2", "test author 2", "test content 2" );
+eFCoreExample.Delete(3002);
+
 
 
 //hello
