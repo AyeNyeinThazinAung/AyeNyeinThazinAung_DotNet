@@ -1,11 +1,6 @@
-﻿using DotNetTrainingBatch3.WebApi.Models;
+﻿using DotNetTrainingBatch3.ConsoleApp.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetTrainingBatch3.WebApi
 {

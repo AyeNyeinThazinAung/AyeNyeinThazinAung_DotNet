@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		READ.md = READ.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTrainingBatch3.WebApi", "DotNetTrainingBatch3.WebApi\DotNetTrainingBatch3.WebApi.csproj", "{C0B1C79D-F57B-4D90-BCC2-D328133936B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTrainingBatch3.WebApi", "DotNetTrainingBatch3.WebApi\DotNetTrainingBatch3.WebApi.csproj", "{C0B1C79D-F57B-4D90-BCC2-D328133936B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
