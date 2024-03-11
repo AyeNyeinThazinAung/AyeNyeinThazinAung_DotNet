@@ -7,6 +7,7 @@ using DotNetTrainingBatch3.ConsoleApp.EFCoreExamples;
 using DotNetTrainingBatch3.ConsoleApp.HttpClientExamples;
 using DotNetTrainingBatch3.ConsoleApp.Models;
 using Newtonsoft.Json;
+using DotNetTrainingBatch3.ConsoleApp.RestClientExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -139,9 +140,12 @@ Console.WriteLine("Hello, World!");
 
 Console.WriteLine("Waiting for Api...");
 Console.ReadKey();
-HttpClientExample httpClientExample = new HttpClientExample();
-await httpClientExample.Run();
 
+//HttpClientExample httpClientExample = new HttpClientExample();
+//await httpClientExample.Run();
+
+RestClientExample restClientExample = new RestClientExample();
+await restClientExample.Run();
 //hello
 Console.ReadKey();
 

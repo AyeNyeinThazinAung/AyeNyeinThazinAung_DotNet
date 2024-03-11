@@ -1,25 +1,35 @@
 #DotNetTrainingBatch3
 
 https://www.javatpoint.com/ado-net-tutotial
+[x] Console App
+[x] Ado.Net (CRUD)
+[x] Dapper (CRUD)
+[x] EF Entity Framework (Code First => Create Table, Database First=> use in Code)(CRUD)
 
-ado.net
-dapper
-ef core (code first, database first)
-C#
+Repo DB
+[x] Postman
+[x] Asp.Net Core Web Api (Rest Api)
+	[xEF]
+	Dapper
+	Ado.Net
 
-.net framework (windows)
+[x] Console App connect with Ado.Net Core Web Api
+	[x] httpClient
+	RestClient
+	Refit
 
-.net core (windows, Linux, MacOs)
-1
-2
-2.2
-3
-3.1
-4
-4.5
-4.6
-4.7
-4.8
+[x] Burma Project Ideas (Bird)
+
+html, css,javascript
+jquery
+jquery plugins
+sweetalert
+notiflx
+datatable
+datetime picker
+ladda button
+radio checkbox
+toast
 
 .net
 5(vs2019,2022)
